@@ -30,5 +30,9 @@ def contact():
 def career_day():
     return render_template("careerday.html")
 
+@app.route("/arduino")
+def arduino():
+    return render_template("arduino.html")
+
 if __name__ == "__main__":
    app.run(debug=True)
